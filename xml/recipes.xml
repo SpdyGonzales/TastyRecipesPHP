@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cookbook version="46">
+
+    <recipe name="pancakes">
+    <title>Pancakes</title>
+    <ingredient>
+        <li>1 cup all-purpose flour, (spooned and leveled)</li>
+        <li>2 teaspoons baking powder</li>
+        <li>1 cup milk</li>
+        <li>1 large egg</li>
+        <li>2 tablespoons sugar</li>
+        <li>1/2 teaspoon salt</li>
+        <li>2 tablespoons unsalted butter</li>
+        <li>1 tablespoon vegetable oil</li>
+    </ingredient>
+    <recipetext>
+        <li>Preheat oven to 200 degrees; have a baking sheet or heatproof platter ready to keep cooked pancakes warm in the oven. In a small bowl, whisk together flour, sugar, baking powder, and salt; set aside.</li>
+        <li>In a medium bowl, whisk together milk, butter (or oil), and egg. Add dry ingredients to milk mixture; whisk until just moistened (do not overmix; a few small lumps are fine)</li>
+        <li>Heat a large skillet (nonstick or cast-iron) or griddle over medium. Fold a sheet of paper towel in half, and moisten with oil; carefully rub skillet with oiled paper towel.</li>
+        <li>For each pancake, spoon 2 to 3 tablespoons of batter onto skillet, using the back of the spoon to spread batter into a round (you should be able to fit 2 to 3 in a large skillet).</li>
+        <li>Cook until surface of pancakes have some bubbles and a few have burst, 1 to 2 minutes. Flip carefully with a thin spatula, and cook until browned on the underside, 1 to 2 minutes more. Transfer to a baking sheet or platter; cover loosely with aluminum foil, and keep warm in oven. Continue with more oil and remaining batter. (You'll have 12 to 15 pancakes.) Serve warm, with desired toppings.</li>
+    </recipetext>
+    </recipe>
+    
+   <recipe name="meatballs">
+    <title>Meatballs</title>
+    <ingredient>
+        <li>2 tbsp olive oil</li>
+        <li>150g/5oz onion, finely chopped</li>
+        <li>1 clove garlic, crushed</li>
+        <li>900g/2lb freshly minced beef</li>
+        <li>2 tbsp freshly chopped herbs, such as marjoram, or 1 tbsp rosemary</li>
+        <li>1 free-range egg, beaten</li>
+        <li>salt and freshly ground black pepper</li>
+        <li>3 tbsp olive oil</li>
+        <li>salad of choice</li>
+    </ingredient>
+    <recipetext>
+        <li>Heat two tablespoons of olive oil in a heavy stainless steel saucepan over a gentle heat and add the onion and garlic. Cover and sweat for four minutes, until soft and a little golden. Allow to cool.</li>
+        <li>In a bowl, mix the minced beef with the cold sweated onion and garlic. Add the herbs and the beaten egg. Season the mixture with salt and pepper.</li>
+        <li>Fry a tiny bit to check the seasoning and adjust if necessary. Divide the mixture into approximately 24 round balls. Cover the meatballs and refrigerate until required.</li>
+        <li>Heat a frying pan and cook the meatballs for about 10 minutes in about three tablespoons of olive oil.</li>
+        <li>Serve with salad</li>
+    </recipetext>
+    </recipe>
+
+</cookbook>

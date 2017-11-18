@@ -1,0 +1,96 @@
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #004D34;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: white;
+    box-sizing: border-box;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    width: 800px;
+    overflow: scroll;
+    background-color:#ddd;
+    margin: auto;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 100px;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+    width: 800px;
+    overflow: auto;
+    margin: auto;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color:#777;
+}
+.days li .background{
+    background-size: cover;
+    background-position: center center;
+    color: orange;
+}
+.days li a {
+    width:100%;
+    height: 150px;
+    display: block;
+}
+.calendar--wrapper{
+    /* width: 100%; */
+    display: block;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    overflow: scroll;
+    margin: auto;
+}

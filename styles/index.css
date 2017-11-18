@@ -1,0 +1,34 @@
+.welcometitle {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 200px;
+    margin-top: 250px;
+}
+.welcometitle h1{
+  font-size: 35px;
+}
+.welcometitle span{
+	font-size: 15px;
+	display: block;
+}
+
+.flexbox{
+  display:flex;
+  justify-content:center;
+  margin:auto;
+}
+.spacer{
+  margin: 11px 6px;
+}
+.endspacer{
+	margin: 50px 10px;
+}
+.poster{
+  background-size:cover;
+  background-position:center center;
+  height:600px;
+  width:100%;
+}
+.home--wrapper{
+	margin: 0 12px;
+}

@@ -1,0 +1,134 @@
+html, body {
+	border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.header--fixed{
+    margin-top: 70px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 940px) {
+    article .flexbox{
+        flex-direction: column;
+    }
+    article .flexbox--column{
+        flex-direction: row;
+    }
+    article .flexbox--flexitem{
+        width: 50%;
+        flex: 1;
+    }
+    
+    article .textpos ul{
+        width:auto;
+    }
+}
+
+@media (max-width: 612px) {
+    .flexbox{
+        flex-direction: column;
+    }
+    .flexbox .poster{
+        width:100%;
+    }
+    article .comments--wrapper{
+        width:90%;
+    }
+    article .flexbox--column{
+        flex-direction: column;
+    }
+}
+#navbar {
+    /* overflow: hidden; */
+    background-color: #004D34;
+    height: 77px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+}
+
+#navbar a {
+    display: inline-block;
+    align-self: center;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 19px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+#navbar a:hover{
+    color: #FF8C00;
+    border-bottom: 1px solid #FF8C00;
+}
+#navbar a:hover {
+    text-decoration: none;
+}
+.activepg{
+    border-bottom: 1px solid #FF8C00;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul {
+    position: relative;
+    list-style: none;
+}
+nav ul ul {
+    position: absolute;
+    top: 77px;
+}
+nav ul ul li {
+    position: relative;
+    width: 160px;
+
+}
+.dropdown--menu{
+    display: none;
+    background-color: white;
+    border: #004c35 1px solid;
+    border-top: 0;
+}
+
+nav#navbar .dropdown--menu li a{
+    color: #060606;
+}
+nav#navbar .dropdown--menu .login ul li form {
+    display: none;
+    background-color: white;
+    border: #004c35 1px solid;
+    border-top: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 19px;
+}
+.login form {
+    width 100%;
+    font-family; font-family: Tahoma, Geneva, sans-serif;
+    flex-direction: row;
+}
+#picmeat{
+  background-image: url('../assets/meat.jpg');
+}
+
+#picpancake {
+  background-image: url('../assets/panc.jpg')
+}
+
+#picsoup {
+  background-image: url('../assets/soup.jpg')
+}
+
+#piccarrot {
+  background-image: url('../assets/carrots.jpg')
+}

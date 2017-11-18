@@ -1,0 +1,101 @@
+article{
+	margin: 0 12px;
+	display: flex;
+	flex-flow: column;
+}
+h1{
+    text-align: left;
+    margin: 0;
+    font-size: 60px;
+    margin-left: 40px;
+}
+
+h2.list--title{
+	margin-left: 40px;
+	margin-bottom: 4px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+.textpos{
+	max-width: 740px;
+}
+.textpos ul{
+	width: 75%;
+	list-style: disc;
+	padding-left: 40px;
+}
+.textpos li {
+	line-height: 1.3;
+}
+.flexbox{
+  display:flex;
+  justify-content:center;
+  /* width:800px; */
+  margin: 100px 0px;
+}
+
+.spacer{
+  margin: 6px 6px;
+}
+.poster{
+  background-size:cover;
+  background-position: center center;
+  height:600px;
+  flex: 1;
+}
+
+/* COMMENTS */
+.comments--wrapper{
+	width: 50%;
+	margin: auto;
+}
+.comments--wrapper form{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.comments--wrapper textarea {
+	width:100%;
+	height:85px;
+}
+
+.comments--wrapper input{
+	width:70px;
+	align-self:flex-end;
+
+}
+
+ul.comments--list{
+	padding:0;
+	list-style: none;
+}
+.comment {
+	padding: 10px 0px;
+}
+.comment:nth-child(even) {
+	border-top: 1px solid gray;
+	border-bottom:1px solid gray;
+}
+.comment h5{
+	margin-bottom: 6px;
+	margin-top: 0px;
+}
+.comment p{
+	margin: initial;
+	text-align: left;
+	
+}
+.flexbox--column{
+	flex-direction: column;
+	display: flex;
+}
+.flexbox--flexitem{
+}
+
+p.date {
+	font-size: 12px;
+	color: gray;
+	margin-bottom: 10px;
+}
